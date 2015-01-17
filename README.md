@@ -139,10 +139,10 @@ We need a way to specify a p tag in our CSS file. We do that with an ID, a uniqu
   <p class="sentence-2">I have the same class as sentence two</p>
 </body>
 ```
-Now we can update our styles.css file to specify that only p tags with the ID "sentence-1" should be red. Because it's an ID, we use a hash.
+Now we can update our styles.css file to specify that only things with the ID "sentence-1" should be red. Because it's an ID, we use a hash.
 
 ```css
-p #sentence-1 {
+#sentence-1 {
   color: red;
 }
 ```
@@ -152,11 +152,11 @@ Save and refresh and check it out!
 Now let's add make the "sentence-2" class be underlined. Because it's a class, we use a period.
 
 ```css
-p #sentence-1 {
+#sentence-1 {
   color: red;
 }
 
-p .sentence-2 {
+.sentence-2 {
   text-decoration: underline;
 }
 ```
