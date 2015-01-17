@@ -207,3 +207,26 @@ Now that we have the photo, let's get it on our page! Open up your index.html fi
 ```
 
 Go check it out in the browser!
+
+## The Grid System
+
+What if we don't want everything to just get vertically stacked?
+
+Bootstrap uses a [grid system](http://getbootstrap.com/examples/grid/) to help with layout. It's 12 units wide. Let's split the page into two columns of 6 units each.
+
+```html
+<body>
+  <div class="container">
+    <div class="col-md-6">
+      <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+    </div>
+    <div class="col-md-6">
+      <p id="sentence-1">I love social justice! </p>
+      <p class="sentence-2">I really love social justice</p>
+      <p class="sentence-2">I have the same class as sentence two</p>
+    </div>
+  </div>
+</body>
+```
+
+After you save and refresh, the image should be on the left and your 3 sentences on the right.
