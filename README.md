@@ -167,7 +167,7 @@ Save and refresh again. There are lots of styles that do lots of different thing
 
 The folks at Bootstrap have written quite a bit of code for us. The bootstrap.css file that we downloaded and put in our css folder is just a really big CSS file. So if we use the classes that are styled in bootstrap.css in our index.html file, they'll get styled with Bootstrap.
 
-In fact, Bootstrap's styles are already being applied because we included bootstrap.css in the head. Let's see what our page would look like without Bootstrap. To do that, we're going to disable the `<link rel="stylesheet" href="css/bootstrap.css"` line. We could just delete it and put it back in later, but then we'd lose the code. So instead we can temporarily disable it by commenting it out. Highlight that row and press command and '/' on your keyboard. That disables the selected code from being read and processed by the browser.
+In fact, Bootstrap's styles are already being applied because we included bootstrap.css in the head. Let's see what our page would look like without Bootstrap. To do that, we're going to disable the `<link rel="stylesheet" href="css/bootstrap.css"` line. We could just delete it and put it back in later, but then we'd lose the code. So instead we can temporarily disable it by commenting it out. Highlight that row and press `command+/` on your keyboard (`ctrl+/` on a PC). That disables the selected code from being read and processed by the browser.
 
 Now save and refresh and see what happens!
 
