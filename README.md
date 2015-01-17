@@ -99,3 +99,15 @@ If you opened this up in the browser right now, the page would be blank. Let's c
 ```
 
 Now open up your favorite browser. Click on 'open file' and navigate to your index.html file. You should see your sentence on the page!
+
+## Adding styles
+
+What if you wanted the text to look different? We can style it using our styles.css file. CSS stands for Cascading Style Sheet. Continuing the house analogy, CSS is like the paint on the house, the moldings, and the furniture. It's the interior and exterior decorating.
+
+In Sublime, click on styles.css to open it. Then add the color red to anything in a p tag.
+
+```css
+p {
+  color: red;
+}
+```
