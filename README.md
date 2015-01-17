@@ -20,7 +20,7 @@ Using Sublime, create a new file in your project folder by right clicking on the
 
 Do that again in Sublime to create a new file in your css folder called styles.css
 
-##
+## Setting up your index.html file
 
 Now let's work on your index.html file. Open it in Sublime by clicking it in the sidebar.
 
@@ -88,16 +88,14 @@ You can put anything you want in there, it doesn't have to be "Creating Change W
 </html>
 ```
 
-## Installation
+## Let's see it!
 
-Add it to your Gemfile:
+If you opened this up in the browser right now, the page would be blank. Let's change that. Inside the body, let's add some text in a paragraph ('p') tag. Don't forget to indent! Note that this is just a snippet of the index.html file.
 
-```ruby
-gem 'simple_form'
+```html
+<body>
+  <p>I love social justice!</p>
+</body>
 ```
 
-Run the following command to install it:
-
-```console
-bundle install
-```
+Now open up your favorite browser. Click on 'open file' and navigate to your index.html file. You should see your sentence on the page!
