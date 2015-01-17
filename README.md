@@ -36,6 +36,29 @@ You're about to write your first bit of code! Write
 
 Your browser will know that everything between the 2nd and the 3rd line is written in HTML. The `lang="en"` bit tells the browser that the website will be in English, so that if it has built-in translation functionality, it knows what language the website is in. So we're going to write all the rest of our code within what we call the opening `<html>` tag and the closing `</html>` tag.
 
+Now we need to let the browser know where to find supporting files that it will need to properly load the page. We call that section the head.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+</html>
+```
+
+We'll be adding those within the head. Note that the head tags are indented. We do that to keep the code organized and readable. That way, you can always see what section you're in, and make sure you've closed each section. It's kind of like outline format.
+
+Now let's tell the browser about our supporting files. They're both stylesheets that will help us style this index.html file and can be found in the css folder within our project folder.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+</html>
+```
 ## Installation
 
 Add it to your Gemfile:
