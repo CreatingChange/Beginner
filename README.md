@@ -1,14 +1,12 @@
 ![National LGBTQ Task Force Logo](http://www.thetaskforce.org/wp-content/themes/lgbtq/assets/images/logotype.png)
 
-Coding at Creating Change - Beginner Level
+**Coding at Creating Change - Beginner Level**
 
 ## Instructions
 
 Create a new folder for your project
 
 Download [Sublime](http://www.sublimetext.com/) and open it
-
-Create a new file in Sublime in your folder and save it as index.html
 
 Create a new folder inside your folder and name it css
 
