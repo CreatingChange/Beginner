@@ -24,7 +24,9 @@ Do that again in Sublime to create a new file in your css folder called styles.c
 
 Now let's work on your index.html file. Open it in Sublime by clicking it in the sidebar.
 
-First, we have to let your browser know that this is an HTML file. You're about to write your first bit of code! Write
+First, we have to let your web browser know that this is an HTML file. HTML stands for Hyper Text Markup Language. Let's use an analogy of building a house. The HTML is the structure of the house - the wood, drywall, and the floorplans.
+
+You're about to write your first bit of code! Write
 
 ```html
 <!DOCTYPE html>
@@ -32,7 +34,7 @@ First, we have to let your browser know that this is an HTML file. You're about 
 </html>
 ```
 
-
+Your browser will know that everything between the 2nd and the 3rd line is written in HTML. The `lang="en"` bit tells the browser that the website will be in English, so that if it has built-in translation functionality, it knows what language the website is in. So we're going to write all the rest of our code within what we call the opening `<html>` tag and the closing `</html>` tag.
 
 ## Installation
 
