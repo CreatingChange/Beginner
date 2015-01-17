@@ -198,7 +198,7 @@ Now that we have the photo, let's get it on our page! Open up your index.html fi
 ```html
 <body>
   <div class="container">
-    <img src="img/image_1.jpg" alt="Boy or Girl? No."
+    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
     <p id="sentence-1">I love social justice! </p>
     <p class="sentence-2">I really love social justice</p>
     <p class="sentence-2">I have the same class as sentence two</p>
