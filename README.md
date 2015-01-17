@@ -184,3 +184,26 @@ In order to use this functionality, we have to wrap our code in one of Bootstrap
   </div>
 </body>
 ```
+
+Don't forget to un-comment the Bootstrap link from the head of index.html, so that the browser will be able to use bootstrap.css again.
+
+## Adding images
+
+Let's add an image to the page. First, create a folder in our project folder and call it "img".
+
+Then, on the top of this page (by README.md), save image_1.jpg by right-clicking it and downloading it. Save it in your new img folder.
+
+Now that we have the photo, let's get it on our page! Open up your index.html file and add an img tag, with the source (where to find the file) and an alternate (text that will appear if the image doesn't load or will be read aloud if the webpage viewer is visually impaired).
+
+```html
+<body>
+  <div class="container">
+    <img src="img/image_1.jpg" alt="Boy or Girl? No."
+    <p id="sentence-1">I love social justice! </p>
+    <p class="sentence-2">I really love social justice</p>
+    <p class="sentence-2">I have the same class as sentence two</p>
+  </div>
+</body>
+```
+
+Go check it out in the browser!
