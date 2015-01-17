@@ -2,7 +2,7 @@
 
 **Coding at Creating Change - Beginner Level**
 
-## Instructions
+## Project Set-Up
 
 Create a new folder for your project.
 
@@ -19,6 +19,19 @@ Open your project folder in Sublime by right clicking it and selecting open with
 Using Sublime, create a new file in your project folder by right clicking on the project folder and selecting new file. Name it index.html
 
 Do that again in Sublime to create a new file in your css folder called styles.css
+
+##
+
+Now let's work on your index.html file. Open it in Sublime by clicking it in the sidebar.
+
+First, we have to let your browser know that this is an HTML file. You're about to write your first bit of code! Write
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+</html>
+```
+
 
 
 ## Installation
