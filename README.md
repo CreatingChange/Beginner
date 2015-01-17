@@ -111,3 +111,48 @@ p {
   color: red;
 }
 ```
+
+Make sure you've saved all of your files and then refresh in your browser to see your text in red.
+
+## Classes and IDs
+
+Let's throw in a little more text to the index.html file.
+
+```html
+<body>
+  <p>I love social justice!</p>
+  <p>I really love social justice</p>
+  <p>I have the same class as sentence two</p>
+</body>
+```
+
+Now save and refresh again.
+
+What if you don't want all of your text - everything written in p tags - to be red?
+
+We need a way to specify a p tag in our CSS file. We do that with an ID, a unique identifier that we can refer to. An ID can only be used once in your HTML file. If you want to have an identifier that you can use multiple times in your HTML file, it's called a class.
+
+```html
+<body>
+  <p id="sentence-1">I love social justice! </p>
+  <p class="sentence-2">I really love social justice</p>
+  <p class="sentence-2">I have the same class as sentence two</p>
+</body>
+```
+Now we can update our styles.css file to specify that only p tags with the ID "sentence-1" should be red.
+
+```css
+p #sentence-1 {
+  color: red;
+}
+```
+
+Save and refresh and check it out!
+
+Now let's switch to have the "sentence-2" class be red.
+
+```css
+p .sentence-2 {
+  color: red;
+}
+```
