@@ -59,6 +59,35 @@ Now let's tell the browser about our supporting files. They're both stylesheets 
   </head>
 </html>
 ```
+
+While we're working on the head, there's one more thing we can add: a title. This will show up on the tab in the browser.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Creating Change Website</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+</html>
+```
+
+You can put anything you want in there, it doesn't have to be "Creating Change Website." Now let's create the body of the page. This is where everything we want to show up on the page will go. Let's throw in opening and closing body tags.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Creating Change Website</title>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+  </body>
+</html>
+```
+
 ## Installation
 
 Add it to your Gemfile:
