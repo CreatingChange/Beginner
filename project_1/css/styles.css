@@ -1,0 +1,31 @@
+p {
+	color: red;
+}
+
+#sentence-1 {
+  color: red;
+}
+
+.sentence-2 {
+  text-decoration: underline;
+}
+
+.image_1 {
+	width: 200px;
+	padding-top:20px;
+	padding-left: 20px;
+}
+
+.main-paragraph {
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+.main-paragraph p {
+	color: black;
+}
+
+.contact-us {
+	margin-top: 100px;
+	width: 400px;
+}
