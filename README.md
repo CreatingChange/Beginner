@@ -229,4 +229,27 @@ Bootstrap uses a [grid system](http://getbootstrap.com/examples/grid/) to help w
 </body>
 ```
 
-After you save and refresh, the image should be on the left and your 3 sentences on the right.
+After you save and refresh, the image should be on the left and your 3 sentences on the right. (You may want to adjust the size of your browser window to see how Bootstrap stacks the columns when the browser window gets too skinny.)
+
+## Adding more pictures
+
+Bootstrap also has the option of creating rows of content. Let's further divide the page by splitting the left hand column into three rows. Add a few `"row"` classes with the content in between.
+
+```html
+<div class="col-md-6">
+  <div class="row">
+    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+  </div>
+  <div class="row">
+    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+  </div>
+  <div class="row">
+    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+  </div>
+</div>
+```
+
+Now after you save and refresh, there should be six copies of the image tiled in the left column.
