@@ -524,12 +524,19 @@ You should be feeling pretty proud of what you built. Now it's time to customize
 
 Here are a few ideas to get you started:
 <li>Make the front page display the latest news and updates from your organization</li>
+
 <li>Add the organization's name or logo to the navigation bar</li>
+
 <li>Use your own photos in place of the repeated 6 pictures on the home page</li>
+
 <li>Add a list of supporters to the About page</li>
+
 <li>Change up the contact page to also include a link to your organization's twitter profile.</li>
+
 <li>Use a photo as a background for the jumbotron rather than the plain gray background</li>
+
 <li>Explore the [Resources](https://github.com/CreatingChange/Resources) we've put together for further learning.</li>
+
 <li>Put up your site for real on the internet using the [Deployment Resources](https://github.com/CreatingChange/Resources#deployment-and-making-your-page-live).</li>
 
 You're also welcome to get started on the [Intermediate Curriculum](https://github.com/CreatingChange/Intermediate), if you'd like!
