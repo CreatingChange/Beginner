@@ -16,7 +16,7 @@
 	text-align: justify;
 	padding-bottom: 20px;
 }
-/*
+
 .contact-us {
 	margin-top: 150px;
 
@@ -29,12 +29,12 @@
 	margin-bottom: 10px;
 }
 
-.contact-info {
+/*.contact-info {
 	font-weight: bold;
 	text-align: center;
-}
-*/
+}*/
+
 #contact-header {
 	text-align: center;
-	/*padding-top: 50px;*/
+	margin-top: 50px;
 }

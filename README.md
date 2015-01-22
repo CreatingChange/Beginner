@@ -448,6 +448,41 @@ Now lets add some information in each of the divs, this info is just something w
 </div>
 ```
 
+So now that we have all the important information on the page. Lets clean it up and make it look a bit better.
+
+To put a bit of space between the contact header and the navigation bar we can increase the top margin 
+
+#contact-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+To create some space between the contact information and the header, we can follow the same convention.
+
+
+.contact-us {
+  margin-top: 150px;
+
+}
+
+The glyphicons are kinda small, so if we want to make them a bit larger we can add this declaration to the styles.css. The browser thinks the glyphicon is a font, so when we resize it we will do it in the small manner as if it were text.
+
+.glyphicon {
+  font-size: 40px;
+  margin-bottom: 10px    <--- puts space between the glyphicon and the info
+}
+
+Now we should center our contact information and the glyphs. This is a good time to learn about `display: inline` vs. `display: block`
+
+Here is the most simple explanation of the two declarations.
+
+`display: inline` = Takes up only as much width as it needs, and does not force new lines
+
+`display: block` = Takes up the full width available, with a new line before and after
+
+
+
+
 
 
 
