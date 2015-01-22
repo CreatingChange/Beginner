@@ -369,17 +369,17 @@ Ok! Time to check it out in the browser. If you already have index.html open, tr
 
 ## Creating a Contact Page
 
-In your project folder, create a new file called contact.html. We will be using the same navigation bar that we built on the previous page, so you can just copy and paste everything from `<!DOCTYPE html>` to the closing `</nav>` tag, then make sure to close everything up by adding 
+In your project folder, create a new file called contact.html. We will be using the same navigation bar that we built on the previous page, so you can just copy and paste everything from `<!DOCTYPE html>` to the closing `</nav>` tag, then make sure to close everything up by adding
 
 ```html
     </div>
   </body>
 </html>
 ```
-to the end. This closes the container, body, and html tags. We will put our contact information inside the `<div class="container">` starting after the closing `</nav>`. As a header for the page, we will add an `<h1>` and give it an id name of "contact-header".
+to the end. This closes the container, body, and html tags. We will put our contact information inside the `<div class="container">` starting after the closing `</nav>`. As a header for the page, we will add an `<h1>` and give it an ID name of "contact-header".
 
 ```html
-<h1 id="contact-header"> Contact Us </h1>
+<h1 id="contact-header">Contact Us</h1>
 ```
 
 In our styles.css we can declare that the header should be centered.
@@ -391,95 +391,85 @@ In our styles.css we can declare that the header should be centered.
 
 ```
 
-Earlier on the home page we split the page into 2 columns.  Here instead of 2 colunms using 6 units each.  We will have 3 columns using 4 units each.  So right after the contact-header we can make three empty columns.
+Earlier on the home page we split the page into 2 columns.  Here instead of 2 colunms using 6 units each, we will have 3 columns using 4 units each.  So right after the contact-header we can make three empty columns.
 
 ```html
 <div class="col-md-4">
-
+</div>
+<div class="col-md-4">
+</div>
+<div class="col-md-4">
 </div>
 ```
 
 Bootstrap comes with some useful [glyphicons](http://getbootstrap.com/components/#glyphicons) built in. Its nearly impossible to remember the class names for each one so it is common to have to visit the documentation page linked above for reference.
 
-To get the glyphicons into your project, you should go back to the boostrap 'dist' folder from the beginning and move the fonts folder into your project. We will later reference the glyphicons inside this folder with class names.
+To get the glyphicons into your project, you should go back to the boostrap 'dist' folder from the beginning and move the entire fonts folder into your project. We will later reference the glyphicons inside this folder with class names.
 
-On the contact page we will use the phone, envelope, and user glyphicons to represent email, phone number, and facebook link.
-
-Your columns should look like this:
+On the contact page we will use the phone, envelope, and user glyphicons to represent email, phone number, and facebook link. Because we're relying on the glyphicons from Bootstrap, we need to be able to apply the appropriate glyphicon classes. But, what tag do we use? We don't necessarily want a p tag, or an a tag. And it's not a div, because it's not grouping a multiple lines of code. We use a span, which groups code within a line.
 
 ```html
-
 <div class="col-md-4 contact-us">
   <span class="glyphicon glyphicon-phone-alt"></span>
 </div>
-
 <div class="col-md-4 contact-us">
   <span class="glyphicon glyphicon-envelope"></span>
 </div>
-
 <div class="col-md-4 contact-us">
   <span class="glyphicon glyphicon-user"></span>
 </div>
 
 ```
 
-Now when you refresh your contact page you should see the three glyphicons. 
+Now when you refresh your contact page you should see the three glyphicons.
 
 At this point when you refresh your contact page you should see the header "Contact Us" positioned in the center of the page, and also three lonely glyphicons evenly spaced.
 
-Now lets add some information in each of the divs, this info is just something we have made up, feel free to add whatever information you will like.
+Now lets add some information in each of the divs. This info is just something we made up, so feel free to add whatever information you like.
 
 
 ```html
-
 <div class="col-md-4 contact-us">
   <span class="glyphicon glyphicon-phone-alt"></span>
   <p class="contact-info">708-432-5566</p>
 </div>
-
 <div class="col-md-4 contact-us">
   <span class="glyphicon glyphicon-envelope"></span>
   <p class="contact-info">awesome@creatingchange.com</p>
 </div>
-
 <div class="col-md-4 contact-us">
   <span class="glyphicon glyphicon-user"></span>
   <a href="https://www.facebook.com/CreatingChange"><p class="contact-info">facebook link</p></a>
 </div>
 ```
 
-So now that we have all the important information on the page. Lets clean it up and make it look a bit better.
+Notice that we used an a tag again, but this time it's linking to an external website. Also notice that we created a new class called "contact-info" that we can then use in our CSS to style it. So now that we have all the important information on the page, let's clean it up and make it look a bit better.
 
-To put a bit of space between the contact header and the navigation bar we can increase the top margin 
+## Styling the Contact Page
+To put a bit of space between the contact header and the navigation bar we can increase the top margin.
 
 ```html
-
 #contact-header {
   text-align: center;
   margin-top: 50px;
 }
-
 ```
 
 To create some space between the contact information and the header, we can follow the same convention.
 
 ```html
-
 .contact-us {
   margin-top: 150px;
 }
-
 ```
 
-The glyphicons are kinda small, so if we want to make them a bit larger we can add this declaration to the styles.css. The browser thinks the glyphicon is a font, so when we resize it we will do it in the small manner as if it were text.
+The glyphicons are kinda small, so if we want to make them a bit larger we can add this declaration to the styles.css. The browser thinks the glyphicon is a font, so when we resize it we will do it in the small manner as if it were text. Go ahead and try playing around with these numbers and see what happens! You should notice that "margin-bottom" puts space between the glyphicon and the information.
 
 ```html
-
 .glyphicon {
   font-size: 40px;
-  margin-bottom: 10px    <--- puts space between the glyphicon and the info
+  margin-bottom: 10px
 }
-
 ```
 
 Now we should center our contact information and the glyphs. This is a good time to learn about `display: inline` vs. `display: block`
@@ -493,52 +483,38 @@ Here is the most simple explanation of the two declarations.
 [more indepth explanation](http://webdesignfromscratch.com/html-css/css-block-and-inline/)
 
 
-```html 
-
+```html
 .glyphicon {
   font-size: 40px;
-  display:block;
+  display: block;
   text-align: center;
   margin-bottom: 10px;
 }
-
 ```
 
 So in this css declaration, we are setting the glyphicon to `display: block`  so that it can take up the width of the column and then we `text-align: center` to center it within that column.
 
-We can clean up the contact information. By making it bold and centering the text.
+We can clean up the contact information by making it bold and centering the text.
 
 ```html
-
 .contact-info {
   font-weight: bold;
   text-align: center;
 }
-
 ```
 
 
-Lastly, boostrap has a nice component called [wells](http://getbootstrap.com/components/#wells).  Wells are used Use the as a simple effect on an element to give it an inset effect.
+Lastly, boostrap has a nice component called [wells](http://getbootstrap.com/components/#wells).  Wells are used on an element to give it an inset effect.
 
-Add a new div inside of your column with the class name "well"
+Add a new div inside each of your columns with the class name "well".
 
 ```html
-
 <div class="col-md-4 contact-us">
   <div class="well">
     <span class="glyphicon glyphicon-envelope"></span>
-    <p class="contact-info"> awesome@creatingchange.com</p>
+    <p class="contact-info">awesome@creatingchange.com</p>
   </div>
 </div>
-
 ```
 
 Refresh, and you should be done with your simple three paged website.
-
-
-
-
-
-
-
-
