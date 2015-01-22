@@ -19,7 +19,6 @@
 
 .contact-us {
 	margin-top: 150px;
-
 }
 
 .glyphicon {
@@ -29,12 +28,16 @@
 	margin-bottom: 10px;
 }
 
-/*.contact-info {
+.contact-info {
 	font-weight: bold;
 	text-align: center;
-}*/
+}
 
 #contact-header {
 	text-align: center;
 	margin-top: 50px;
+}
+
+.well {
+	padding-right: 20px;
 }

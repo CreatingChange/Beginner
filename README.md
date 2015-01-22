@@ -506,7 +506,7 @@ Here is the most simple explanation of the two declarations.
 
 So in this css declaration, we are setting the glyphicon to `display: block`  so that it can take up the width of the column and then we `text-align: center` to center it within that column.
 
-Lastly, we will clean up the contact information. By making it bold and centering the text.
+We can clean up the contact information. By making it bold and centering the text.
 
 ```html
 
@@ -516,6 +516,24 @@ Lastly, we will clean up the contact information. By making it bold and centerin
 }
 
 ```
+
+
+Lastly, boostrap has a nice component called [wells](http://getbootstrap.com/components/#wells).  Wells are used Use the as a simple effect on an element to give it an inset effect.
+
+Add a new div inside of your column with the class name "well"
+
+```html
+
+<div class="col-md-4 contact-us">
+  <div class="well">
+    <span class="glyphicon glyphicon-envelope"></span>
+    <p class="contact-info"> awesome@creatingchange.com</p>
+  </div>
+</div>
+
+```
+
+Refresh, and you should be done with your simple three paged website.
 
 
 
