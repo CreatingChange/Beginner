@@ -285,3 +285,39 @@ Let's insert it below the h3 tag. We'll also give it an ID of "main-paragraph" i
   </div>
 </div>
 ```
+
+## Creating a Navigation Bar
+
+Bootstrap also makes creating a [navigation bar](http://getbootstrap.com/examples/navbar/) easy. The navigation bar should exist on all of your site's pages and allows a user to navigate from one part of the site to another. Right now, we only have one page, but we'll build another one in a bit!
+
+We're going to put the navigation bar at the top of the page. So it will be within the body and also within the "container", but outside of the columns.
+
+```html
+<body>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+...
+```
+
+Ok, so there's a bunch of new stuff in here. We're relying heavily on Bootstrap here, as you can see by all these classes we're using that we didn't define ourselves in styles.css. They all refer to styles defined in bootstrap.css.
+
+There are a few new kinds of tags here. The "nav" tag holds a group of navigation links. The "ul" tag starts an "unordered list" (yes, there are also "ordered lists" that use an "ol" tag). Then within the unordered list are "li" tags, or "list item" tags. If you'd like to take a little side trip, now would be a good time to try out making lists in your right column of text. You could try turning one of your Hipster Ipsum paragraphs into a list instead.
+
+The other new tag is the "a" tag. It defines a hyperlink to another page. The "href" part is the destination of the link. Whatever text is wrapped within the a tag is what will show up as a clickable link on the page.
+
+Here, the first item in the unordered list contains a "Home" link that takes a user to index.html. That's the page we're currently working on, so if you click on it now, it will look like it's not doing anything.
+
+The other two list items contain links to an About page and a Contact page. For those links to work, we'll have to create those two pages.
+
+## Creating an About page and a Contact page
