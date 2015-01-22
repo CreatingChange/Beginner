@@ -399,13 +399,11 @@ Earlier on the home page we split the page into 2 columns.  Here instead of 2 co
 </div>
 ```
 
-
-
-Bootstrap comes with some useful [glyphicons](http://getbootstrap.com/components/#glyphicons) built in. Its nearly impossible to remember the class name for each one so it is common to have to visit the documentation page linked above for reference.
+Bootstrap comes with some useful [glyphicons](http://getbootstrap.com/components/#glyphicons) built in. Its nearly impossible to remember the class names for each one so it is common to have to visit the documentation page linked above for reference.
 
 To get the glyphicons into your project, you should go back to the boostrap 'dist' folder from the beginning and move the fonts folder into your project. We will later reference the glyphicons inside this folder with class names.
 
-On this page we will use the phone, envelope, and user glyphicons to represent email, phone number, and facebook link.
+On the contact page we will use the phone, envelope, and user glyphicons to represent email, phone number, and facebook link.
 
 Your columns should look like this:
 
@@ -426,6 +424,30 @@ Your columns should look like this:
 ```
 
 Now when you refresh your contact page you should see the three glyphicons. 
+
+At this point when you refresh your contact page you should see the header "Contact Us" positioned in the center of the page, and also three lonely glyphicons evenly spaced.
+
+Now lets add some information in each of the divs, this info is just something we have made up, feel free to add whatever information you will like.
+
+
+```html
+
+<div class="col-md-4 contact-us">
+  <span class="glyphicon glyphicon-phone-alt"></span>
+  <p class="contact-info">708-432-5566</p>
+</div>
+
+<div class="col-md-4 contact-us">
+  <span class="glyphicon glyphicon-envelope"></span>
+  <p class="contact-info">awesome@creatingchange.com</p>
+</div>
+
+<div class="col-md-4 contact-us">
+  <span class="glyphicon glyphicon-user"></span>
+  <a href="https://www.facebook.com/CreatingChange"><p class="contact-info">facebook link</p></a>
+</div>
+```
+
 
 
 
