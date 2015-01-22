@@ -253,3 +253,35 @@ Bootstrap also has the option of creating rows of content. Let's further divide 
 ```
 
 Now after you save and refresh, there should be six copies of the image tiled in the left column.
+
+## Adding more text
+
+Let's add some more content to the right column. Below the existing text, let's add a headline. Instead of a regular "p" tag, we'll use an "h3" tag. "h" tags go from numbers 1 to 6, with 1 being the biggest headline and 6 being the smallest.
+
+```html
+<div class="col-md-6">
+  <p id="sentence-1">I love social justice! </p>
+  <p class="sentence-2">I really love social justice</p>
+  <p class="sentence-2">I have the same class as sentence two</p>
+  <div id="main-paragraph">
+    <h3> I AM A FORMATTED PARAGRAPH TEXT</h3>
+  </div>
+</div>
+```
+
+A lot of developers and designers use filler text while building a site, when the real content isn't ready. It's called Lorem Ipsum. Today we'll have a little bit of fun and use [Hipster Ipsum](http://hipsum.co/) to generate 2 paragraphs of text.
+
+Let's insert it below the h3 tag. We'll also give it an ID of "main-paragraph" in case we want to give it some specific styling later.
+
+```html
+<div class="col-md-6">
+  <p id="sentence-1">I love social justice! </p>
+  <p class="sentence-2">I really love social justice</p>
+  <p class="sentence-2">I have the same class as sentence two</p>
+  <div id="main-paragraph">
+    <h3> I AM A FORMATTED PARAGRAPH TEXT</h3>
+    <p>Cornhole messenger bag stumptown ennui mustache cred Blue Bottle +1. Truffaut four loko keffiyeh kitsch viral Marfa cliche, Echo Park chambray cornhole vinyl ethical cold-pressed kogi whatever. Artisan Neutra art party semiotics sartorial wayfarers, tattooed squid +1 meh mustache aesthetic Carles. Bitters listicle kale chips, meh four dollar toast chambray organic cred tattooed ethical. Craft beer Carles street art synth meh Schlitz deep v. Synth Neutra four loko chillwave VHS sartorial, small batch disrupt flannel selvage heirloom keffiyeh. Sartorial distillery readymade art party VHS drinking vinegar, taxidermy 8-bit dreamcatcher.</p>
+    <p>Kitsch crucifix mustache distillery, health goth food truck irony master cleanse literally PBR lumbersexual hashtag umami tousled. Occupy retro trust fund squid Helvetica hoodie 8-bit shabby chic, brunch salvia biodiesel street art ugh. Paleo selvage cred twee, whatever pop-up readymade cardigan Pinterest authentic synth skateboard PBR cray. Brooklyn paleo beard, lo-fi roof party Tumblr lumbersexual butcher Godard umami. Direct trade before they sold out tofu, gluten-free authentic keffiyeh single-origin coffee beard roof party selvage VHS photo booth church-key. Next level forage four dollar toast, wolf before they sold out Odd Future 3 wolf moon tousled biodiesel vegan Bushwick Portland flexitarian Echo Park. Mumblecore heirloom pour-over, 3 wolf moon VHS deep v before they sold out pop-up post-ironic forage yr craft beer XOXO.</p>
+  </div>
+</div>
+```
