@@ -369,11 +369,23 @@ Ok! Time to check it out in the browser. If you already have index.html open, tr
 
 ## Creating a Contact Page
 
-In your project folder, create a new file called contact.html. We will be using the same navigation bar that you built on the previous page, so you can just copy and paste everything from `<!DOCTYPE html>` to the closing `</nav>` tag, then make sure to close everything up by adding 
+In your project folder, create a new file called contact.html. We will be using the same navigation bar that we built on the previous page, so you can just copy and paste everything from `<!DOCTYPE html>` to the closing `</nav>` tag, then make sure to close everything up by adding 
 
 ```html
     </div>
   </body>
 </html>
 ```
-to the end.
+to the end. This closes the container, body, and html tags. We will put our contact information inside the `<div class="container">` starting after the closing `</nav>`. As a header for the page, we will add an `<h1>` and give it an id name of "contact-header".
+
+```html
+<h1 id="contact-header"> Contact Us </h1>
+```
+
+Earlier on the home page we split the page into 2 columns.  Here instead of 2 colunms using 6 units each.  We will have 3 columns using 4 units each.  So right after the contact-header we can make three empty columns.
+
+```html
+<div class="col-md-4">
+
+</div>
+```
