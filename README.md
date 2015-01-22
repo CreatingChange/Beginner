@@ -365,3 +365,15 @@ Finally, let's add some more Hipster Ipsum text as a stand in for a mission stat
 ```
 
 Ok! Time to check it out in the browser. If you already have index.html open, try clicking the About link now and your About page should show up!
+
+
+## Creating a Contact Page
+
+In your project folder, create a new file called contact.html. We will be using the same navigation bar that you built on the previous page, so you can just copy and paste everything from `<!DOCTYPE html>` to the closing `</nav>` tag, then make sure to close everything up by adding 
+
+```html
+    </div>
+  </body>
+</html>
+```
+to the end.
