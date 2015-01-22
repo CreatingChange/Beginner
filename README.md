@@ -493,6 +493,19 @@ Here is the most simple explanation of the two declarations.
 [more indepth explanation](http://webdesignfromscratch.com/html-css/css-block-and-inline/)
 
 
+```html 
+
+.glyphicon {
+  font-size: 40px;
+  display:block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+```
+
+So in this css declaration, we are setting the glyphicon to `display: block`  so that it can take up the width of the column and then we `text-align: center` to center it within that column.
+
 
 
 
