@@ -320,4 +320,48 @@ Here, the first item in the unordered list contains a "Home" link that takes a u
 
 The other two list items contain links to an About page and a Contact page. For those links to work, we'll have to create those two pages.
 
-## Creating an About page and a Contact page
+## Creating an About page
+
+In your project folder, create a new file called about.html. Then copy everything from index.html into about.html. Then, remove the two columns and everything within them. You should be left with the head, body, container, and nav bar. If you want, you could change the title of the page to About as well.
+
+Let's insert a big banner-style headline on the about page. In Bootstrap, this is called a [Jumbotron](http://getbootstrap.com/examples/jumbotron/).
+
+After the code for the navigation bar, add the code for a jumbotron. Notice that it's an "h1" tag (the biggest headline) wrapped within a container, wrapped within a jumbotron class.
+
+```html
+<div class="jumbotron">
+  <div class="container">
+    <h1>My Social Justice Org</h1>
+  </div>
+</div>
+```
+
+You can also add a subheading if you want by adding in a p tag or two within the container.
+
+```html
+<div class="jumbotron">
+  <div class="container">
+    <h1>My Social Justice Org</h1>
+    <p>Who we are</p>
+  </div>
+</div>
+```
+
+Finally, let's add some more Hipster Ipsum text as a stand in for a mission statement or a list of organization supporters.
+
+```html
+<body>
+  <div class="container">
+  ...
+    <div class="jumbotron">
+      <div class="container">
+        <h1>My Social Justice Org</h1>
+        <p>Who we are</p>
+      </div>
+    </div>
+    <p>Vice health goth bespoke, Pitchfork American Apparel Austin fanny pack tote bag farm-to-table XOXO trust fund try-hard. Odd Future chambray XOXO VHS gluten-free slow-carb hoodie, McSweeney's listicle. Jean shorts brunch crucifix freegan. Four loko DIY ennui, listicle pork belly High Life Echo Park farm-to-table Tumblr Bushwick vinyl Thundercats. Gastropub hashtag swag, umami synth photo booth flannel Truffaut church-key salvia stumptown drinking vinegar. Umami cornhole Intelligentsia retro, High Life listicle Tumblr Marfa literally fashion axe Etsy. Chambray craft beer mustache jean shorts, Wes Anderson Carles photo booth narwhal cronut banh mi selvage.</p>
+  </div>
+</body>
+```
+
+Ok! Time to check it out in the browser. If you already have index.html open, try clicking the About link now and your About page should show up!
