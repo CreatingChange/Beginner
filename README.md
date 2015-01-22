@@ -504,7 +504,7 @@ We can clean up the contact information by making it bold and centering the text
 ```
 
 
-Lastly, boostrap has a nice component called [wells](http://getbootstrap.com/components/#wells).  Wells are used on an element to give it an inset effect.
+Lastly, Bootstrap has a nice component called [wells](http://getbootstrap.com/components/#wells).  Wells are used on an element to give it an inset effect.
 
 Add a new div inside each of your columns with the class name "well".
 
