@@ -130,7 +130,7 @@ Now save and refresh again.
 
 What if you don't want all of your text - everything written in p tags - to be red?
 
-We need a way to specify a p tag in our CSS file. We do that with an ID, a unique identifier that we can refer to. An ID can only be used once in your HTML file. If you want to have an identifier that you can use multiple times in your HTML file, it's called a class.
+We need a way to specify a tag in our CSS file. We do that with an ID, a unique identifier that we can refer to. An ID can only be used once in your HTML file. If you want to have an identifier that you can use multiple times in your HTML file, it's called a class.
 
 ```html
 <body>
@@ -139,7 +139,7 @@ We need a way to specify a p tag in our CSS file. We do that with an ID, a uniqu
   <p class="sentence-2">I have the same class as sentence two</p>
 </body>
 ```
-Now we can update our styles.css file to specify that only things with the ID "sentence-1" should be red. Because it's an ID, we use a hash.
+Now we can update our styles.css file to specify that only things with the ID "sentence-1" should be red. Delete the "p" and replace it with `#sentence-1`. Because "sentence-1" is an ID, we use a hash.
 
 ```css
 #sentence-1 {
