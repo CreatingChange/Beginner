@@ -382,6 +382,15 @@ to the end. This closes the container, body, and html tags. We will put our cont
 <h1 id="contact-header"> Contact Us </h1>
 ```
 
+In our styles.css we can declare that the header should be centered.
+
+```
+#contact-header {
+  text-align: center;
+}
+
+```
+
 Earlier on the home page we split the page into 2 columns.  Here instead of 2 colunms using 6 units each.  We will have 3 columns using 4 units each.  So right after the contact-header we can make three empty columns.
 
 ```html
@@ -389,3 +398,5 @@ Earlier on the home page we split the page into 2 columns.  Here instead of 2 co
 
 </div>
 ```
+
+
