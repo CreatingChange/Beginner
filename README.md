@@ -467,7 +467,6 @@ To create some space between the contact information and the header, we can foll
 
 .contact-us {
   margin-top: 150px;
-
 }
 
 ```
@@ -490,6 +489,8 @@ Here is the most simple explanation of the two declarations.
 `display: inline` = Takes up only as much width as it needs, and does not force new lines
 
 `display: block` = Takes up the full width available, with a new line before and after
+
+[more indepth explanation](http://webdesignfromscratch.com/html-css/css-block-and-inline/)
 
 
 
