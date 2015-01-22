@@ -506,6 +506,18 @@ Here is the most simple explanation of the two declarations.
 
 So in this css declaration, we are setting the glyphicon to `display: block`  so that it can take up the width of the column and then we `text-align: center` to center it within that column.
 
+Lastly, we will clean up the contact information. By making it bold and centering the text.
+
+```html
+
+.contact-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+```
+
+
 
 
 
