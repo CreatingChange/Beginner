@@ -14,7 +14,7 @@ Create a new folder inside your folder and name it css.
 
 Open the newly downloaded zip file. Open the dist folder, then the css folder. Then copy the bootstrap.css file into your css folder.
 
-Open your project folder in Sublime by right clicking it and selecting open with. In Sublime, you should see your project folder and your css folder.
+Run Sublime, select the "open" menu option, select your project folder, and select "open". You should now see your project folder and, within it, your css folder.
 
 Using Sublime, create a new file in your project folder by right clicking on the project folder and selecting new file. Name it index.html
 
