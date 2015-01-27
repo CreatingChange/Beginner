@@ -191,14 +191,14 @@ Don't forget to un-comment the Bootstrap link from the head of index.html, so th
 
 Let's add an image to the page. First, create a folder in our project folder and call it "img".
 
-Then, on the top of this page (by README.md), save image_1.jpg by right-clicking it and downloading it. Save it in your new img folder.
+Then, on the top of this page (by README.md), save rsz_image_1.jpg by right-clicking it and downloading it. Save it in your new img folder.
 
 Now that we have the photo, let's get it on our page! Open up your index.html file and add an img tag, with the source (where to find the file) and an alternate (text that will appear if the image doesn't load or will be read aloud if the webpage viewer is visually impaired).
 
 ```html
 <body>
   <div class="container">
-    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+    <img src="img/rsz_image_1.jpg" alt="Boy or Girl? No.">
     <p id="sentence-1">I love social justice! </p>
     <p class="sentence-2">I really love social justice</p>
     <p class="sentence-2">I have the same class as sentence two</p>
@@ -218,7 +218,7 @@ Bootstrap uses a [grid system](http://getbootstrap.com/examples/grid/) to help w
 <body>
   <div class="container">
     <div class="col-md-6">
-      <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+      <img src="img/rsz_image_1.jpg" alt="Boy or Girl? No.">
     </div>
     <div class="col-md-6">
       <p id="sentence-1">I love social justice! </p>
@@ -238,16 +238,16 @@ Bootstrap also has the option of creating rows of content. Let's further divide 
 ```html
 <div class="col-md-6">
   <div class="row">
-    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
-    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+    <img src="img/rsz_image_1.jpg" alt="Boy or Girl? No.">
+    <img src="img/rsz_image_1.jpg" alt="Boy or Girl? No.">
   </div>
   <div class="row">
-    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
-    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+    <img src="img/rsz_image_1.jpg" alt="Boy or Girl? No.">
+    <img src="img/rsz_image_1.jpg" alt="Boy or Girl? No.">
   </div>
   <div class="row">
-    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
-    <img src="img/image_1.jpg" alt="Boy or Girl? No.">
+    <img src="img/rsz_image_1.jpg" alt="Boy or Girl? No.">
+    <img src="img/rsz_image_1.jpg" alt="Boy or Girl? No.">
   </div>
 </div>
 ```
