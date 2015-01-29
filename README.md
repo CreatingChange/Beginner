@@ -163,6 +163,12 @@ Now let's add make the "sentence-2" class be underlined. Because it's a class, w
 
 Save and refresh again. There are lots of styles that do lots of different things. So you can breathe easy now if you were worried that all you could do was make text red. Check out our resources list for CSS cheat sheets, or just do a little googling.
 
+## How the Internet Works
+
+Now that you are starting to get a sense of what HTML and CSS are, let's fill out that knowledge with a [short video](https://www.youtube.com/watch?v=e4S8zfLdLgQ) on how the internet works. The first 5 minutes and 20 seconds are the most relevant to a beginner.
+
+After you've watched it: note that right now, your browser is directly reading your HTML and CSS files without having to do a DNS lookup and make a request to a server. Your HTML and CSS files live on your laptop only right now. If you wanted to actually put your site on the internet, you'd use something like [Site44](https://github.com/CreatingChange/Resources#deployment-and-making-your-page-live) that puts your code on one of their servers and creates a web address for your site.
+
 ## Bootstrap
 
 The folks at Bootstrap have written quite a bit of code for us. The bootstrap.css file that we downloaded and put in our css folder is just a really big CSS file. So if we use the classes that are styled in bootstrap.css in our index.html file, they'll get styled with Bootstrap.
