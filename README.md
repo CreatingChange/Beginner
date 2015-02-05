@@ -26,7 +26,7 @@ Now let's work on your index.html file. Open it in Sublime by clicking it in the
 
 First, we have to let your web browser know that this is an HTML file. HTML stands for Hyper Text Markup Language. Let's use an analogy of building a house. The HTML is the structure of the house - the wood, drywall, and the floorplans.
 
-You're about to write your first bit of code! Write
+You're about to write your first bit of code! Don't copy and paste any of the code on this tutorial. Typing it out for yourself will significantly increase your learning. Write
 
 ```html
 <!DOCTYPE html>
