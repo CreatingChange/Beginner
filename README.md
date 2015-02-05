@@ -197,7 +197,7 @@ Don't forget to un-comment the Bootstrap link from the head of index.html, so th
 
 Let's add an image to the page. First, create a folder in our project folder and call it "img".
 
-Then, on the top of this page (by README.md), save rsz_image_1.jpg by right-clicking it and downloading it. Save it in your new img folder.
+Then, on the top of this page (in the list of files and folders), click on "img" and then save rsz_image_1.jpg by right-clicking it and downloading it. Save it in your new img folder.
 
 Now that we have the photo, let's get it on our page! Open up your index.html file and add an img tag, with the source (where to find the file) and an alternate (text that will appear if the image doesn't load or will be read aloud if the webpage viewer is visually impaired).
 
